@@ -12,14 +12,12 @@ public class Estabelecimento {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 
-	// atributo nome
 	private String nome;
 
 	private String endereco;
 
 	private Boolean temEstacionamento = false;
 
-	// todos os getters e setters
 	public void setId(Long id) {
 		this.id = id;
 	}
