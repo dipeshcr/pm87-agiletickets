@@ -15,7 +15,6 @@ public class Estabelecimento {
 	// atributo nome
 	private String nome;
 
-	// atributo endereco
 	private String endereco;
 
 	private Boolean temEstacionamento = false;
