@@ -87,7 +87,6 @@ public class Sessao {
 	}
 
 	public Integer getIngressosDisponiveis() {
-		// faz a conta de total de ingressos menos ingressos reservados
 		return totalIngressos - ingressosReservados;
 	}
 	
